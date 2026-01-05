@@ -25,7 +25,7 @@ public class Main {
                 String nomeProduto = scanner.nextLine();
 
                 System.out.println("Digite o preço do produto");
-                Double precoProduto = Double.parseDouble(scanner.nextLine());
+                double precoProduto = scanner.nextDouble();
 
                 Produto produto = new Produto(nomeProduto, precoProduto);
                 produtos.add(produto);
